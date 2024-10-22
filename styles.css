@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 50px 0;
+}
+
+.card {
+    margin: 15px 0;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+.projects-container {
+    display: flex;
+    justify-content: center; /* Aligns cards horizontally in the center */
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if there's not enough space */
+}
+
+.project-card {
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 250px; /* Set a fixed width for cards */
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.project-card img {
+    width: 100%; /* Make image responsive */
+    border-radius: 8px;
+}
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 15px; /* Space between items */
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.project-card img {
+    width: 100%; /* Make image responsive */
+    border-radius: 8px;
+}
